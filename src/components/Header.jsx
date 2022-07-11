@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import CartBlock from "./Cart-block";
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
                 <NavLink to='/' className='text-[24px] font-bold'>Game Store</NavLink>
             </div>
             <div>
-                Cart
+                <CartBlock/>
             </div>
         </header>
     );
