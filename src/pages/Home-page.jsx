@@ -62,7 +62,6 @@ const HomePage = () => {
 
     return (
         <div className='flex flex-wrap gap-[20px] items-center justify-center'>
-
             {GAMES.map(game => <GameItem title={game.title} img={game.image} game={game} key={game.id}/>)}
         </div>
     );
