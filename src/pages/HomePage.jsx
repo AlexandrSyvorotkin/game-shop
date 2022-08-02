@@ -1,5 +1,6 @@
 import React from 'react';
-import GameItem from "../components/Game-item";
+import GameItem from "../components/GameItem/GameItem";
+import './HomePage.css'
 
 const HomePage = () => {
 
@@ -61,7 +62,7 @@ const HomePage = () => {
     ]
 
     return (
-        <div className='flex flex-wrap gap-[20px] items-center justify-center'>
+        <div className='homepage'>
             {GAMES.map(game => <GameItem title={game.title} img={game.image} game={game} key={game.id}/>)}
         </div>
     );

@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
 import {AiOutlineShoppingCart} from "react-icons/ai";
 import {useSelector} from "react-redux";
-import {calcTotalPrice} from "./utils";
-import CartMenu from "./Cart-menu";
-import ItemsInCart from "./items-in-cart";
+import {calcTotalPrice} from "../../utils/utils";
+import CartMenu from "../CartMenu/CartMenu";
+import ItemsInCart from "../ItemsInCart";
+import './CartBlock.css'
 
 
 const CartBlock = () => {
@@ -14,10 +15,10 @@ const CartBlock = () => {
 
 
     return (
-        <div className='flex justify-between items-center relative'>
+        <div className='cart-block'>
             <ItemsInCart quantity={items.length}/>
             <AiOutlineShoppingCart size={20} onClick={() => setIsCartMenuVisible(!isCartMenuVisible)}/>
-            {totalPrice > 0 ? <span className='ml-[20px] font-bold'>{totalPrice}</span> : null}
+            {totalPrice > 0 ? <span className='cart-block__total-price'>{totalPrice}</span> : null}
             { isCartMenuVisible && <CartMenu items={items} onClick={() => null}/>}
         </div>
     );

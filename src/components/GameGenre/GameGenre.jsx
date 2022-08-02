@@ -1,8 +1,9 @@
 import React from 'react';
+import './GameGenre.css'
 
 const GameGenre = ({genre}) => {
     return (
-        <div className='bg-slate-900 p-[5px] rounded-lg'>
+        <div className='game-genre'>
             {genre}
         </div>
     );

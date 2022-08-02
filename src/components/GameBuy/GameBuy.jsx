@@ -1,7 +1,8 @@
 import React from 'react';
-import Button from "../ui/Button";
+import Button from "../../ui/Button";
 import {useDispatch, useSelector} from "react-redux";
-import {addItemInCart, deleteItemFromCart} from "../redux/cart/reducer";
+import {addItemInCart, deleteItemFromCart} from "../../redux/cart/reducer";
+import './GameBuy.css'
 
 const GameBuy = ({ game }) => {
 
@@ -20,9 +21,9 @@ const GameBuy = ({ game }) => {
     }
 
     return (
-        <div className='flex gap-[15px] items-center mt-[5px]'>
-            <span>{game.price}</span>
-            <Button onClick={ handleClick }>
+        <div className='game-buy'>
+            <span className='game-buy__price'>{game.price}</span>
+            <Button type='primary' onClick={ handleClick }>
                 {isItemInCart ? 'Убрать из корзины' : 'В корзину'}
             </Button>
         </div>
