@@ -1,10 +1,11 @@
 import React from 'react';
+import './CartItem.css'
 
 const CartItem = ({id, price, title}) => {
     return (
-        <div>
+        <div className='cart-item'>
             <span>{title}</span>
-            <div>
+            <div className='cart-item__price'>
                 <span>{price} руб.</span>
             </div>
         </div>

@@ -3,7 +3,7 @@ import {AiOutlineShoppingCart} from "react-icons/ai";
 import {useSelector} from "react-redux";
 import {calcTotalPrice} from "../../utils/utils";
 import CartMenu from "../CartMenu/CartMenu";
-import ItemsInCart from "../ItemsInCart";
+import ItemsInCart from "../ItemsInCart/ItemsInCart";
 import './CartBlock.css'
 
 

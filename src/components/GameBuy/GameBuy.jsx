@@ -23,7 +23,7 @@ const GameBuy = ({ game }) => {
     return (
         <div className='game-buy'>
             <span className='game-buy__price'>{game.price}</span>
-            <Button type='primary' onClick={ handleClick }>
+            <Button type={!isItemInCart ? 'primary' : 'secondary'} onClick={ handleClick }>
                 {isItemInCart ? 'Убрать из корзины' : 'В корзину'}
             </Button>
         </div>

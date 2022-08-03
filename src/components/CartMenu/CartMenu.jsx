@@ -1,7 +1,7 @@
 import React from 'react';
 import {calcTotalPrice} from "../../utils/utils";
 import Button from "../../ui/Button";
-import CartItem from '../CartItem'
+import CartItem from '../CartItem/CartItem'
 import './CartMenu.css'
 
 const CartMenu = ({ items , onClick}) => {

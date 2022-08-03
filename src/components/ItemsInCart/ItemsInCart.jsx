@@ -1,8 +1,9 @@
 import React from 'react';
+import './ItemsInCart.css'
 
 const ItemsInCart = ({quantity = 0 }) => {
     return quantity > 0 ?(
-        <div className='absolute w-[20px] h-[20px] bg-orange-800 rounded-xl text-base flex justify-center text-slate-200 left-[15px] top-[-10px] z-10'>
+        <div className='itemsInCart'>
             {quantity}
         </div>
     ) : null;
