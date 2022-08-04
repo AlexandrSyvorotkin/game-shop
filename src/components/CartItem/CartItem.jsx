@@ -1,7 +1,10 @@
 import React from 'react';
 import './CartItem.css'
 
-const CartItem = ({id, price, title}) => {
+const CartItem = ({id, price, title, game}) => {
+
+
+
     return (
         <div className='cart-item'>
             <span>{title}</span>
