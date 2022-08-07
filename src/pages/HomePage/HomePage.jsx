@@ -60,54 +60,54 @@ const HomePage = () => {
             description: 'Assassin’s Creed Valhalla — мультиплатформенная компьютерная игра в жанре action/RPG, разработанная студией Ubisoft Montreal под издательством компании Ubisoft. Является двенадцатой игрой в серии игр Assassin’s Creed.'
         },
         {
-            image: '/game-covers/TheWitcher3.jpg',
+            image: '/game-covers/witcher.jpg',
             title: 'The Witcher 3: Wild Hunt',
-            genres: ['Паркур', 'РПГ', 'Открытый мир'],
+            genres: ['Открытый мир', 'РПГ', 'Экшн'],
             video: 'https://www.youtube.com/embed/c0i88t0Kacs',
             price: 2900,
             id: 7,
             description: 'Ведьмак 3: Дикая Охота» — компьютерная игра от третьего лица в жанре action/RPG. Игрок играет за Геральта из Ривии, охотника на чудовищ.'
         },
         {
-            image: '',
+            image: '/game-covers/atomrpg.jpg',
             title: 'Atom RPG',
             genres: ['РПГ', 'Исследования'],
             video: '//www.youtube.com/embed/ad7UssUeaa8',
             price: 133,
             id: 9,
-            description: ''
+            description: 'ATOM RPG это пост-апокалиптическая инди-игра вдохновлённая классическими CRPG: Fallout, Wasteland, Deus Ex, Baldur\'s Gate'
         },
         {
-            image: '',
+            image: '/game-covers/atom-rpg-trudograd.jpg',
             title: 'Atom RPG: Trudograd',
             genres: ['РПГ', 'Исследования'],
-            video: '',
-            price: 133,
+            video: 'https://www.youtube.com/embed/QX-LvgaOXbs',
+            price: 800,
             id: 10,
-            description: ''
+            description: 'ATOM RPG: Трудоград — это пошаговая постапокалиптическая ролевая игра, продолжающая сюжет ATOM RPG, и следующая традициям классических игр, таких как Fallout, Wasteland и Baldur’s Gate.'
         },
         {
-            image: '',
+            image: '/game-covers/batman.jpg',
             title: 'Batman: Arkham Knight',
-            genres: ['РПГ', 'Исследования'],
-            video: '',
-            price: 133,
+            genres: ['Экшн', 'Приклюения'],
+            video: 'https://www.youtube.com/embed/wsf78BS9VE0',
+            price: 1900,
             id: 11,
-            description: ''
+            description: 'Batman: Arkham Knight — компьютерная игра в жанре приключенческого боевика, разработанная Rocksteady Studios и выпущенная Warner Bros.'
         },
         {
-            image: '',
+            image: '/game-covers/cyberpunk.jpg',
             title: 'Cyberpunk 2077',
             genres: ['РПГ', 'Исследования'],
-            video: '',
+            video: 'https://www.youtube.com/embed/qIcTM8WXFjk',
             price: 133,
             id: 12,
-            description: ''
+            description: 'Cyberpunk 2077 — компьютерная игра в жанре action-adventure в открытом мире, разработанная и изданная польской студией CD Projekt. Действие игры происходит в 2077 году в Найт-Сити, вымышленном североамериканском городе из вселенной Cyberpunk.'
         },
         {
             image: '',
             title: 'Deathloop',
-            genres: ['РПГ', 'Исследования'],
+            genres: ['РПГ', 'Исследования', 'Экшн'],
             video: '',
             price: 133,
             id: 13,
