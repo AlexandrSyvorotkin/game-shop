@@ -3,4 +3,10 @@
     justify-content: center;
     align-items: center;
     height: 900px;
+    flex-direction: column;
+}
+
+.gameshop {
+    margin-bottom: 50px;
+    font-size: 50px;
 }

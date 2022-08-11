@@ -17,8 +17,10 @@
     font-size: 24px;
     font-weight: bold;
     margin-left: auto;
+    display: flex;
 }
 
 .cart-item__delete_icon {
     cursor: pointer;
+    margin-left: 10px;
 }
